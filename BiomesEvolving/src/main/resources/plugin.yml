@@ -1,0 +1,12 @@
+name: BiomesEvolving
+version: 1.0.0
+main: com.gabryx412.biomes.BiomesEvolving
+api-version: 1.21
+commands:
+  evolvebiome:
+    description: Evolve a biome
+    usage: /evolvebiome <biome_name>
+permissions:
+  biomes.evolve:
+    description: Permesso di evolvere i biomi
+    default: true

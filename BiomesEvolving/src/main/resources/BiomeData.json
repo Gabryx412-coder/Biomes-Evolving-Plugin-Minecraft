@@ -1,0 +1,14 @@
+{
+    "forest": {
+        "growthRate": 0.05,
+        "decayRate": 0.02,
+        "evolution": "desert",
+        "resources": ["wood", "leaves", "saplings"]
+    },
+    "desert": {
+        "growthRate": 0.01,
+        "decayRate": 0.1,
+        "evolution": "forest",
+        "resources": ["sand", "cactus"]
+    }
+}

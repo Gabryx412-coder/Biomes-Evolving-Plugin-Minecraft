@@ -1,0 +1,23 @@
+plugins {
+    id 'java'
+}
+
+group = 'com.gabryx412.biomes'
+version = '1.0.0'
+description = 'Plugin per l\'evoluzione dei biomi in Minecraft 1.21'
+
+sourceCompatibility = '17' // Impostato per la compatibilità con Spigot API
+targetCompatibility = '17'
+
+repositories {
+    mavenCentral()
+    maven { url 'https://hub.spigotmc.org/nexus/content/repositories/snapshots/' }
+}
+
+dependencies {
+    implementation 'org.spigotmc:spigot-api:1.21-R0.1-SNAPSHOT'
+}
+
+tasks.withType(JavaCompile) {
+    options.encoding = 'UTF-8'
+}
